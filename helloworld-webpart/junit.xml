@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="5" time="24.126">
+  <testsuite name="src\webparts\helloWorld\tests\webPartName.spec.ts" errors="0" failures="5" skipped="0" timestamp="2019-09-16T20:47:24" time="6.642" tests="6">
+    <testcase classname="&lt;HelloWorld /&gt; Should do something" name="&lt;HelloWorld /&gt; Should do something" time="0.005">
+    </testcase>
+    <testcase classname="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render something" name="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render something" time="0.015">
+      <failure>TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Projects\helloworld-webpart\src\webparts\helloWorld\tests\webPartName.spec.ts:25:28)
+    at Object.asyncFn (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\jasmine_async.js:82:37)
+    at resolve (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:52:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:39:19)
+    at promise.then (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:73:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render the description" name="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render the description" time="0">
+      <failure>TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Projects\helloworld-webpart\src\webparts\helloWorld\tests\webPartName.spec.ts:29:28)
+    at Object.asyncFn (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\jasmine_async.js:82:37)
+    at resolve (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:52:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:39:19)
+    at promise.then (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:73:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render an ul" name="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should render an ul" time="0">
+      <failure>TypeError: Cannot read property &apos;find&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Projects\helloworld-webpart\src\webparts\helloWorld\tests\webPartName.spec.ts:33:28)
+    at Object.asyncFn (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\jasmine_async.js:82:37)
+    at resolve (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:52:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:39:19)
+    at promise.then (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:73:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; state results should not be null" name="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; state results should not be null" time="0.001">
+      <failure>TypeError: Cannot read property &apos;state&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Projects\helloworld-webpart\src\webparts\helloWorld\tests\webPartName.spec.ts:37:28)
+    at Object.asyncFn (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\jasmine_async.js:82:37)
+    at resolve (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:52:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:39:19)
+    at promise.then (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:73:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+    <testcase classname="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should call componentDidMount only once" name="&lt;HelloWorld /&gt; &lt;HelloWorld /&gt; should call componentDidMount only once" time="0">
+      <failure>TypeError: Cannot read property &apos;calledOnce&apos; of undefined
+    at Object.&lt;anonymous&gt; (C:\Projects\helloworld-webpart\src\webparts\helloWorld\tests\webPartName.spec.ts:42:33)
+    at Object.asyncFn (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\jasmine_async.js:82:37)
+    at resolve (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:52:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:39:19)
+    at promise.then (C:\Projects\helloworld-webpart\node_modules\jest-cli\node_modules\jest-jasmine2\build\queue_runner.js:73:82)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
