@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "proppane-webpart-client-side-solution",
+    "id": "e4ce8f9e-ad64-4048-b10e-fa48cbe050fa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/proppane-webpart.sppkg"
+  }
+}
