@@ -45,7 +45,7 @@
     "@types/jest": "24.0.18",
     "@types/mocha": "2.2.38",
     "@voitanos/jest-preset-spfx-react16": "^1.2.0",
-    "ajv": "~5.2.2",
+    "ajv": "~6.12.3",
     "chai": "^4.2.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-15": "1.4.0",
